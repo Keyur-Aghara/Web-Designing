@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .img{
+            background-color: green;
+            height: 400px;
+            width: 400px;
+            animation-name: box;
+            animation-duration: 5s;
+        }
+        .t{
+            animation-name: name;
+            animation-duration: 4s;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            border-radius: 10px;
+        }
+        .text{
+            padding-top: 100px;
+        }
+        @keyframes box {
+            from{
+                translate: 150vw 0;
+            }
+            to{
+                translate: 0 0;
+            }
+        }
+        @keyframes name {
+            50%{
+                background-color: red;
+                scale: 200%;
+            }
+            100%{
+                scale: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="img">
+        <div class="text"><h2>My name is <span class="t">Keyur</span>.I am <span class="t">Web Designer</span></h2></div>
+    </div>
+</body>
+</html>

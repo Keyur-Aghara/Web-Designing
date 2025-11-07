@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        a:visited {
+            color: red;
+        }
+
+        p::first-letter {
+            font-size: 30px;
+            color: blue;
+        }
+
+        p::first-line {
+            background-color: aqua;
+        }
+
+        p::selection {
+            color: black;
+            background-color: red;
+        }
+        td:hover{
+            background-color: yellow;
+        }
+        .click:hover{
+            background-color: green;
+        }
+        .click:active{
+            background-color: blue;
+            color: white;
+            transform: scale(1.2);
+        }
+        .click{
+            margin-left: 20px;
+        }
+        table{
+            margin-left: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <a href="#">click here</a>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum veniam deleniti aspernatur earum cum modi
+        accusamus voluptatum eius ratione. Id reiciendis, esse ab maxime natus eveniet cumque nemo quibusdam assumenda!
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae sunt culpa numquam quam blanditiis
+        delectus. Inventore, tempore veniam nulla cupiditate nostrum, hic eaque cum sed, voluptatibus tempora laudantium
+        perspiciatis at.</p>
+    
+    <p></p>
+    <input type="button" value="click here" class="click">
+</body>
+
+</html>

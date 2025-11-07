@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .col{
+            background-color: white;
+            height: 500px;
+            width: 500px;
+            animation-name: test;
+            animation-duration: 5s;
+            animation-delay: 2s;
+            animation-iteration-count: infinite;
+            animation-direction: reverse;
+            animation-timing-function: ease-in-out;
+        }
+        @keyframes test{
+            0%{
+                margin: 0 0 0 0;
+                background-color: red;
+            }
+            25%{
+                background-color: yellow;
+                margin-top: 0px;
+                margin-bottom: 0px;
+                margin-right: 0px;
+                margin-left: 500px;
+            }
+            50%{
+                background-color: red;
+                margin-top: 500px;
+                margin-bottom: 0px;
+                margin-right: 0px;
+                margin-left: 500px;
+            }
+            75%{
+                background-color: yellow;
+                margin-top: 500px;
+                margin-bottom: 0px;
+                margin-right: 0px;
+                margin-left: 0px;
+            }
+            100%{
+                background-color: red;
+                margin-top: 0px;
+                margin-bottom: 500px;
+                margin-right: 0px;
+                margin-left: 0px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="col">
+
+    </div>
+</body>
+</html>

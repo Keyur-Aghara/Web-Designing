@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <form action="./p3.html" >
+        <table align="center">
+            <caption><h2>creat account</h2></caption>
+            <tr>
+                <td><label for="name" class="k">First name*</label></td>
+                <td><label for="name2" class="k">Last name*</label></td>
+            </tr>
+            <tr>
+                <td><input type="text" id="name" placeholder="enter your first name" required></td>
+                <td><input type="text" id="name2" placeholder="enter your last name" required></td>
+            </tr>
+            <br></br>
+            <tr>
+                <td><label for="mail" class="k">mail*</label></td>
+            </tr>
+            <tr>
+                <td><input type="email" id="mail" placeholder="enter your mail" required></td>
+            </tr>
+            <tr>
+                <td><label for="pass" class="k">password*</label></td>
+                <td><label for="pass2" class="k">confirm password*</label></td>
+            </tr>
+            <tr>
+                <td><input type="password" id="pass" placeholder="enter your password" required></td>
+                <td><input type="password" id="pass2" placeholder="enter your password again" required></td>
+            </tr>
+            <tr>
+                <td><label class="k">Gender</label></td>
+                <td><label class="k">Hobbies</label></td>
+            </tr>
+            <tr>
+                <td><input type="radio" name="Gender" id="mname" required>
+                    <label for="mname">Male</label>
+                    <input type="radio" name="Gender" id="fname7" required>
+                    <label for="fname7">Female</label>
+                </td>
+                <td>
+                    <input type="checkbox" name="Hobbies" id="hobi">
+                    <label for="hobi">Music</label>
+                    <input type="checkbox" name="Hobbies" id="hob">
+                    <label for="hob">Sport</label>
+                    <input type="checkbox" name="Hobbies" id="hobi2">
+                    <label for="hobi2">Travel</label>
+                    <input type="checkbox" name="Hobbies" id="hob2">
+                    <label for="hob2">Movies</label>
+                </td>
+            </tr>
+            <tr>
+                <td><label class="k">Source of Income</label></td>
+                <td><label for="income" class="k">Income</label></td>
+            </tr>
+            <tr>
+                <td><input type="number" placeholder="Employed"></td>
+                <td><input type="range" id="income" min="0" max="20000" value="0"></td>
+            </tr>
+            <tr>
+                <td><label class="k">upload profile picture</label></td>
+                <td><label class="k">Age</label></td>
+            </tr>
+            <tr>
+                <td><input type="file" placeholder="no file chosen" required></td>
+                <td><input type="number" placeholder="18" required></td>
+            </tr>
+            <tr>
+                <td><label for="fname4" class="k">Bio</label></td>
+            </tr>
+            <tr>
+                <td><textarea rows="5" cols="20"></textarea></td>
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>
